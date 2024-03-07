@@ -1,0 +1,406 @@
+{
+	"_cards": false,
+	"_inherit": true,
+	"_variables": {
+		"@default": "#ffffff",
+		"@dark": "#ffffff",
+		"@light": "#eeeeee",
+		"@newb": "#272F84",
+		"@Background" : "#ffffff",
+		"@white": "#FFFFFF",
+		"@black": "#0d0c0c",
+		"@test": "#ffffff",
+		"@H1": "24px",
+		"@H2": "18px",
+		"@H3": "14px",
+		"@H4": "13px",
+		"@H5": "12px",
+		"@H6": "10px",
+		"@font-normal": "12px",
+		"@font-family": "Roboto, sans-serif"
+	},
+	
+	"grid": {
+		"line": {
+			"highContrast": {
+				"color": "@test"
+			},
+			"major": {
+				"color": "@test"
+			},
+			"minor": {
+				"color": "@test"
+			}
+		}
+	},
+	"sheet": {
+		"title": {
+			"private": {
+				"titleBackgroundColor": "#ff0000",
+				"titleBackgroundGradientColor": "#ffffff"
+			},
+			"approved": {
+				"titleBackgroundColor": "#00ff00",
+				"titleBackgroundGradientColor": "#000000"
+			},
+			"published": {
+				"titleBackgroundColor": "#0000ff",
+				"titleBackgroundGradientColor": "#ff0000"
+			}
+		},
+		"backgroundColor": "#000000"
+	},
+	"customStyles": [{
+		"cssRef": "theme.css",
+		"classRef": "my-theme"
+	}],
+	"color": "@white",
+	"fontSize": "@font-normal",
+	"fontFamily": "@font-family",
+	
+	
+
+	"dataColors": {
+		"primaryColor": "blue",
+		"othersColor": "grey",
+		"errorColor": "red",
+		"nullColor": "yellow"
+	}
+,
+	"palettes": {
+		"data": [
+			{
+				"name": "Green to Light Pink",
+				"translation": "Green to Light Pink",
+				"propertyValue": "green-to-light-pink",
+				"type": "row",
+				"scale": [
+				  "#008000",
+				  "#2E8B57",
+				  "#3CB371",
+				  "#90EE90",
+				  "#FFC0CB",
+				  "#FFB6C1",
+				  "#FFAEB9",
+				  "#FFA07A",
+				  "#FF8C69"
+				]
+			  },
+			  {
+				"name": "Mustard Yellow to Navy Blue",
+  "translation": "Mustard Yellow to Navy Blue",
+  "propertyValue": "mustard-yellow-to-navy-blue",
+  "type": "row",
+  "scale": [
+    "#FFDB58",
+    "#FFD700",
+    "#FFC300",
+    "#FFBF00",
+    "#000080",
+    "#00008B",
+    "#000080",
+    "#000070",
+    "#000060"
+				]
+			  },
+			  {
+				"name": "Blue with Green and Orange Accents",
+  "translation": "Blue with Green and Orange Accents",
+  "propertyValue": "blue-with-green-and-orange-accents",
+  "type": "row",
+  "scale": [
+    "#0000FF",
+    "#0000CD",
+    "#4169E1",
+    "#6495ED",
+    "#00FF00",
+    "#008000",
+    "#32CD32",
+    "#FFA500",
+    "#FF8C00"
+				]
+			  },
+             
+			
+			{
+				"name": "Second data palette",
+				"translation": "4 Colors",
+				"propertyValue": "data-palette-2",
+				"type": "row",
+                "scale": [
+                    "#293241",
+                    "#ee6c4d",
+                    "#f9c74f",
+                    "#2a9d8f",
+                    "#f4a261",
+                    "#e76f51",
+                    "#2b434f",
+                    "#6d6875",
+                    "#8d99ae"
+                  ]
+				
+			},
+			{
+				"name": "Third data palette",
+				"translation": "Dull Colors",
+				"propertyValue": "data-palette-3",
+				"type": "row",
+				"scale": [
+                    "#172d33",
+                    "#bd9b74",
+                    "#444d66",
+                    "#6f5a5d",
+                    "#70a4d7",
+                    "#dfba9e",
+                    "#f3ccac",
+                    "#8c6358",
+                    "#674831"
+                  ]
+			},
+			
+			
+			{
+        "scale": [
+          "#36244e",
+          "#3a5799",
+          "#ff2fa9",
+          "#ff8172",
+          "#faba62",
+          "#fffb40"
+        ],
+        "name": "Outrun",
+        "translation": "Outrun dimension colors",
+        "propertyValue": "vupicb",
+        "type": "row",
+        "_id": "5ee722e9a04760036601e6be"
+      },
+      {
+        "scale": [
+          "#C29100",
+          "#F2D300",
+          "#006161", 
+          "#006191", 
+          "#000061"
+        ],
+        "name": "yellow to purple gradient",
+        "translation": "yp dimension colors",
+        "propertyValue": "uihf",
+        "type": "row",
+        "_id": "5ee9a040036601e6be"
+      },
+      {
+        "scale": [
+          "#4D2681",
+          "#8D2FA0",
+          "#F2A900", 
+          "#F2DB2D", 
+          "#0062CD",
+          "#00179F"
+        ],
+        "name": "purple gradient",
+        "translation": "py dimension colors",
+        "propertyValue": "uihfusgs",
+        "type": "row",
+        "_id": "5ee9a040036601e6be"
+      },
+      {
+        "scale": [
+          "#03071e",
+          "#370617",
+          "#6a040f", 
+          "#9d0208",
+          "#d00000",
+          "#dc2f02", 
+          "#e85d04", 
+          "#f48c06", 
+          "#faa307", 
+          "#ffba08"
+        ],
+        "name": "Temperature change",
+        "translation": "Temperature-like dimension colors",
+        "propertyValue": "vui",
+        "type": "row",
+        "_id": "5ee9a047600366e6be"
+      },
+			{
+				"name": "Amber Dark to Light",
+				"translation": "Amber Dark to Light",
+				"propertyValue": "amber-dark-to-light",
+				"type": "sequential",
+				"scale": [
+					"#FF6F00",
+					"#FF8F00",
+					"#FFA000",
+					"#FFB300",
+					"#FFC107",
+					"#FFCA28",
+					"#FFD54F",
+					"#FFE082",
+					"#FFECB3",
+					"#FFF8E1",
+					"#FFFFE0",
+					"#FFFFFF"
+				]
+			},
+			{
+				"name": "Sequential Violet",
+				"translation": "Sequential Violet",
+				"propertyValue": "dark-to-light-9C27B0",
+				"type": "sequential",
+				"scale": [
+					"#120D26",
+					"#271F42",
+					"#3B315E",
+					"#50447B",
+					"#665698",
+					"#7B6AB4",
+					"#917DD1",
+					"#A68FF0",
+					"#BBA2FF",
+					"#D0B4FF",
+					"#E5C7FF",
+					"#FAD9FF"
+				]
+			},
+			{
+				"name": "Black to Blue",
+				"translation": "Black to Blue",
+				"propertyValue": "8p3zqf",
+				"type": "row",
+				"scale": [
+					"#000005",
+					"#01012e",
+					"#010142",
+					"#020257",
+					"#01016b",
+					"#030387",
+					"#03039c",
+					"#0505b3",
+					"#0404cc",
+					"#0505ed",
+					"#0505e3",
+					"#0505fc"
+				]
+			},
+			
+			{
+				"name": "VizLib Colors",
+				"translation": "VizLib Colors",
+				"propertyValue": "8p3dj",
+				
+				"scale": [
+					"#72A3E1" ,
+					"#87B3E8",
+					"#9CC3EF",
+					"#B1D2F6",
+					"#301D77",
+					"#3F2B8D",
+					"#4E389E",
+					"#5D45AF",
+					"#6BBA58",
+					"#7AC067",
+					"#89CB76",
+					"#A7E194"
+				]
+			}
+			,
+          {
+            "name": "Maroon with Dark Orange and Violet Accents",
+  "translation": "Maroon with Dark Orange and Violet Accents",
+  "propertyValue": "maroon-dark-orange-violet",
+  "type": "row",
+  "scale": [
+    "#800000",
+    "#8b0000",
+    "#a52a2a",
+    "#b22222",
+    "#cd5c5c",
+    "#d2691e",
+    "#ff4500",
+    "#ff6347",
+    "#da70d6",
+    "#9400d3",
+    "#8a2be2",
+    "#800080"
+            ]
+          },
+		  {
+            "name": "violet to orange",
+            "translation": "violet to orange",
+            "propertyValue": "8p3weg",
+            "type": "row",
+            "scale": [
+			"#8A2BE2",
+			"#9B3DBA",
+			"#AD4F92",
+			"#BE617A",
+			"#CF7362",
+			"#E0854A",
+			"#F19732",
+			"#FFA91A",
+			"#FFBB02",
+			"#FFCB19",
+			"#FFDB31",
+			"#FFE64A"	
+            ]
+          }
+		],
+		"ui": [{
+			"name": "Palette",
+			"colors": [
+				"#ff0000",
+				"#ffa500",
+				"#a58157",
+				"#6b5e4e",
+				"#acbc44",
+				"#1b3b2e",
+				"#ffff00",
+				"#008000",
+				"#0000ff",
+				"#4b0082",
+				"#ee82ee",
+				"#bd9b74",
+				"#000000",
+				"#ffffff"
+			]
+		}]
+	},
+	"scales": [{
+			"name": "Custom Sequential Gradient",
+			"translation": "Custom Sequential Gradient",
+			"propertyValue": "sg",
+			"type": "gradient",
+			"scale": ["#1A2980", "#26D0CE"]
+		},
+		{
+			"name": "Custom Sequential Classes",
+			"translation": "Custom Sequential Classes",
+			"propertyValue": "sc",
+			"type": "class",
+			"scale": ["#d32b1d", "#023474"]
+		},
+		{
+			"name": "Custom Diverging gradient",
+			"translation": "Custom Diverging gradient",
+			"propertyValue": "dg",
+			"type": "gradient",
+			"scale": ["#1A2980", "#FFFFFF", "#26D0CE", "#d32b1d"]
+		},
+		{
+			"name": "Custom Diverging Classes",
+			"translation": "Custom Diverging Classes",
+			"propertyValue": "dc",
+			"type": "class",
+			"scale": ["#9C824A", "#EF0107", "#DB0007", "#FFFFFF", "#023474"]
+		}
+	]
+	
+}
+
+
+
+
+
+
+
+
