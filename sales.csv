@@ -1,9 +1,9 @@
 customerid,gender,age,annual income,spending score
-1,female,33,190,39
+01,female,33,190,39
 2,male,15,210,89
-3,female,62,200,6
+03,female,62,200,6
 4,female,55,230,77
-5,male,45,180,40
+05,male,45,180,40
 6,male,15,180,76
 7,female,62,190,6
 8,female,31,190,94
