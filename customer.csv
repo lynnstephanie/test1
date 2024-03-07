@@ -1,4 +1,4 @@
-customerid,gender,age,annual income,spending score
+customerid,gender,age,annual income,spending amount
 01,female,33,190,39
 02,male,15,210,89
 03,female,62,200,6
